@@ -37,9 +37,12 @@ defmodule GuardianOnetime.Mixfile do
 
   defp deps do
     [
-      {:guardian, "~> 1.0"},
-      {:ecto, "~> 2.2"},
-      {:postgrex, "~> 0.13"},
+      {:guardian, "~> 1.1.0"},
+      {:ecto, "~> 3.0.5"},
+      {:ecto_sql, "~> 3.0"},
+      {:elixir_uuid, "~> 1.2" },
+      {:jason, "~> 1.0"},
+      {:postgrex, ">= 0.0.0"}
     ]
   end
 
